@@ -1,0 +1,26 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "自定义命令行工具集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xudingjiemike/node-cli.git"
+  },
+  "keywords": [
+    "node",
+    "cli"
+  ],
+  "author": "xudingjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xudingjiemike/node-cli/issues"
+  },
+  "homepage": "https://github.com/xudingjiemike/node-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
