@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+const pkg = require('../package')
+const cmd = require('../lib/index')
+
+program
+    .version(pkg.version)
+    .description(pkg.description)
+    .name(pkg.name)
+
+program
+    .command('ac')
+    .description('add-cli')
+    .action(() => (
+        cmd.ac()
+    ))
+
+program
+    .command('dc')
+    .description('delete-cli')
+    .action(() => (
+        console.log('execute delete-cli')
+    ))
+
+program
+    .command('do')
+    .description('execute user defined cli')
+    .action(() => (
+        console.log('execute do')
+    ))
+
+program
+    .parse(process.argv)
+
+    if(!program.args.length){
+       program.help()
+    }
