@@ -20,7 +20,7 @@ program
     .command('dc')
     .description('delete-cli')
     .action(() => (
-        console.log('execute delete-cli')
+        cmd.dc()
     ))
 
 program
