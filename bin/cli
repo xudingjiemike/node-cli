@@ -24,10 +24,10 @@ program
     ))
 
 program
-    .command('do')
+    .command('ec')
     .description('execute user defined cli')
     .action(() => (
-        console.log('execute do')
+        cmd.ec()
     ))
 
 program
