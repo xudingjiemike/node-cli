@@ -1,1 +1,9 @@
-[{"name":"test1","cli":"e,v,d"},{"name":"test11","cli":"a,v,b,g"}]
+{
+    "data": [{
+        "name": "test1",
+        "cli": "a,b,c"
+    }, {
+        "name": "test2",
+        "cli": "a,c,d"
+    }]
+}
