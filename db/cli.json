@@ -1,9 +1,1 @@
-{
-    "data": [{
-        "name": "test1",
-        "cli": "a,b,c"
-    }, {
-        "name": "test2",
-        "cli": "a,c,d"
-    }]
-}
+{"data":[{"name":"test1","cli":"ls,pwd"}]}
