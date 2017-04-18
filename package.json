@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin":{
-     "bin" :"./bin/cli"
+  "bin": {
+    "bin": "./bin/cli"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "co-prompt": "^1.0.0",
     "commander": "^2.9.0",
     "format-error": "^1.0.0",
+    "generator-foreach": "^0.1.0",
     "lodash": "^4.17.4",
     "mocha": "^3.2.0"
   },
