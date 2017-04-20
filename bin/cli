@@ -38,6 +38,13 @@ program
     ))
 
 program
+    .command('getMockData')
+    .description('getMockDataFrom DIP')
+    .action(() => (
+        cmd.getMockData()
+    ))
+
+program
     .parse(process.argv)
 
     if(!program.args.length){
