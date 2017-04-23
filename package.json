@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/xudingjiemike/node-cli#readme",
   "dependencies": {
+    "@ali/dip-sdk": "^1.1.3",
     "chai": "^3.5.0",
     "chalk": "^1.1.3",
     "co": "^4.6.0",

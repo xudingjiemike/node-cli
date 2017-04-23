@@ -1,0 +1,30 @@
+{
+  "title": "e-checking",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "object",
+      "title": "这是字段描述"
+    },
+    "accouns": {
+      "type": "array",
+      "title": "这是字段描述",
+      "items": {
+        "type": "object",
+        "title": "这是数组的某个成员",
+        "properties": {
+          "accoountNO": {
+            "type": "number",
+            "title": "这是字段描述"
+          },
+          "name": {
+            "type": "string",
+            "title": "这是字段描述"
+          }
+        }
+      },
+      "minItems": 10,
+      "default": "1"
+    }
+  }
+}
